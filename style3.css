@@ -1,0 +1,147 @@
+html,body{
+margin:0;
+padding:0;
+font-family: 'Poppins', sans-serif;
+scroll-behavior: smooth;
+}
+
+header {
+    margin: 20px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.figma-logo{
+    width:40px;
+}
+
+
+.nav-link{
+    font-size: 24px;
+    font: weight 400px;
+    padding: 8px 16px;
+    cursor:pointer;
+    text-decoration: none;
+    color:black;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+button {
+background-color: black;
+color:white;
+border-radius: 10px;
+font-size: 18px;
+font-weight: 700;
+border-style:none;
+padding:14px 24px 16px 24px;
+cursor:pointer;
+}
+
+.video1{
+    width:350px;
+}
+
+.video2{
+    width:550px;
+}
+
+p {
+    max-width:500px;
+    font-size:20px;
+    line-height: 26px;
+}
+
+h2 {
+    font-size:32px;
+    font-weight:700;
+    line-height:1.2;
+    margin-bottom:32px;
+}
+
+ul {
+    max-width:500px;
+    font-size:20px;
+    line-height: 26px;
+}
+
+.yellow_section{
+background-color: #ffc700;
+margin-top:100px;
+}
+
+.yellow_section div{
+    max-width:500px;
+}
+
+.yellow_section h1{
+    font-size:32px;
+    font-weight:700;
+    line-height: 1.2em;
+    margin-top:32px;
+}
+
+.yellow_section p{
+    font-size:20px;
+    max-width: 500px;
+    line-height:26px;
+}
+
+.community{
+    background-color:black;
+    color:white;
+}
+.community h1 {
+    font-size:36px;
+    line-height:1.2;
+    font-weight: 700;
+}
+
+.community p {
+    text-align:center;
+}
+
+.community img{
+    border-radius:10px;
+    margin:20px;
+    max-width: 400px;
+    object-fit: contain;
+}
+
+
+
+.button_style {
+    color:black;
+    background-color: white;
+    margin: 50px;
+}
+
+.footer{
+    margin:40px 50px;
+
+}
+
+.input{
+    margin: 10px;
+    border:3px solid black;
+    border-radius: 5px;
+    height:50px;
+    width:400px;
+    color: #282828;
+    padding:12px;
+}
+
+footer{
+    background-color: #fafafa;
+
+}
+footer section{
+    margin:50px;
+}
+
+.icon{
+    padding:8px 16px;
+}

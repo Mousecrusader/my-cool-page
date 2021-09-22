@@ -1,0 +1,45 @@
+/* comments */
+h1 {text-align:center;
+    color:blueviolet}
+#red {background-color: rgb(236, 240, 229)}
+p {
+font-size: 1em;
+font-weight: 1500;
+background-color:rgb(214, 91, 91) ;
+padding: 20px 5px 20px 5px;
+margin:30px;
+border: 3px solid black;
+border-radius:8px;}
+
+/* universal selector */
+* {color:rgb(0, 0, 0)}
+h2 {color:darkgoldenrod}
+
+.hero{color:darkgoldenrod}
+
+.big_font{font-size:2em}
+
+button{color:white;
+background-color:tomato;
+border:3 solid black;
+border-radius: 8px;
+padding:16px 32px;
+margin:30px;}
+
+#oscar{
+    font-size: 1em;
+font-weight: 1500;
+background-color:rgb(91, 154, 214) ;
+padding: 20px 5px 20px 5px;
+margin:30px;
+border: 3px solid black;
+border-radius:8px;
+}
+
+a:hover{color:chartreuse}
+
+html,body{ 
+margin:0;
+padding:0;
+font-family: 'Poppins', sans-serif;
+scroll-behavior: smooth;}
